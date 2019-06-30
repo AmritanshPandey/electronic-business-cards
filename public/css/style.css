@@ -8,7 +8,20 @@
     top: -30px;
 }
 
+.image-tagline{
+    font-size: 2rem;
+    font-weight: 200;
+    z-index: 100;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+}
 
+.card.horizontal .card-image {
+    max-width: 37%;
+    max-height: 700px;
+}
 
 .nav-color{
     background: #242836;

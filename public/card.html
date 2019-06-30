@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Importing Custom Css-->
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+
+    <!--Meta Tags-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Favicon-->
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+
+    <!--Navigation Starts Here-->
+    <div class="navbar-fixed">
+        <nav class="nav-color">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo"><img class="logo" src="assets/logo.png"></a>
+                    <a href="#" class="sidenav-trigger" data-target="mobile-nav"> <i
+                            class="material-icons white-text">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a class="waves-effect waves-light btn white black-text"
+                                href="https://play.google.com/store/apps/details?id=io.duit.ecards">Download</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Side Navigation-->
+    <ul class="sidenav nav-color" id="mobile-nav">
+        <li><a href="#" class="white-text">About us</a></li>
+        <li><a href="#" class="white-text">Our Product</a></li>
+        <li><a href="#" class="white-text">Contact us</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=io.duit.ecards" class="white-text">Download</a></li>
+    </ul>
+
+    <!--Navigation Ends Here-->
+
+
+    <!--Container Starts Here-->
+    <div class="row">
+        <div class="container top-margin">
+                <div class="col s12">
+                        <div class="card horizontal">
+                          <div class="card-image">
+                            <img src="assets/person.png">
+                            <span class="image-tagline">Jessica Wang</span>
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-content">
+                              <p>I am a very simple card. I am good at containing small bits of information.</p>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+
+            </div>
+
+            
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--Importing JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <!--Initializing Java Script Components-->
+    <script>
+        // Side Navigation
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {});
+    </script>
+</body>
+
+</html>     
