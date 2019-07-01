@@ -2,80 +2,128 @@
 <html>
 
 <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css" rel="stylesheet">
 
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!--Importing Custom Css-->
-    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+  <!--Importing Custom Css-->
+  <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
 
-    <!--Meta Tags-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Meta Tags-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Favicon-->
-    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+  <!--Favicon-->
+  <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
 </head>
 
 <body>
 
-    <!--Navigation Starts Here-->
-    <div class="navbar-fixed">
-        <nav class="nav-color">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="index.html" class="brand-logo"><img class="logo" src="assets/logo.png"></a>
-                    <a href="#" class="sidenav-trigger" data-target="mobile-nav"> <i
-                            class="material-icons white-text">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Our Product</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a class="waves-effect waves-light btn white black-text"
-                                href="https://play.google.com/store/apps/details?id=io.duit.ecards">Download</a></li>
-                    </ul>
-                </div>
+  <!--Navigation Starts Here-->
+  <div class="navbar-fixed">
+    <nav class="nav-color">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo"><img class="logo" src="assets/logo.png"></a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-nav"> <i
+              class="material-icons white-text">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our Product</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a class="waves-effect waves-light btn white black-text"
+                href="https://play.google.com/store/apps/details?id=io.duit.ecards">Download</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!--Side Navigation-->
+  <ul class="sidenav nav-color" id="mobile-nav">
+    <li><a href="#" class="white-text">About us</a></li>
+    <li><a href="#" class="white-text">Our Product</a></li>
+    <li><a href="#" class="white-text">Contact us</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=io.duit.ecards" class="white-text">Download</a></li>
+  </ul>
+
+  <!--Navigation Ends Here-->
+
+
+  <!--Container Starts Here-->
+  <div class="row">
+    <div class="container top-margin">
+      <div class="col s12">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="assets/person.png">
+            <span class="image-tagline">Jessica Wang</span>
+
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <span class="heading-text">About Jesica</span>
+
+              <ul>
+                <li>
+                  <a class="btn"><i class="material-icons left black-text">work</i>VP Marketing at Singapore Bank</a>
+                </li>
+
+                <li>
+                  <a class="btn"><i class="material-icons left black-text">smartphone</i>+65 87656610</a>
+                </li>
+
+                <li>
+                  <a class="btn"><i class="material-icons left black-text">email</i>jessica.wong@bankofsingapore.com</a>
+                </li>
+
+                <li>
+                  <a class="btn"><i class="mdi mdi-earth left black-text"></i>www.bankofsingapore.com</a>
+                </li>
+              </ul>
+              <div class="social-media">
+                <a class="btn"><i class="mdi mdi-linkedin-box left black-text"></i></a>
+                <a class="btn"><i class="mdi mdi-whatsapp left black-text"></i></a>
+                <a class="btn"><i class="mdi mdi-instagram left black-text"></i></a>
+              </div>
+
+              <div>
+                <p>Today, marketing is an integral part of any organisation, functioning as the binding force between
+                  the company and the clients. Customer acquisition, retention, relationship management, sales and
+                  promotion, brand management, market research and mix requires punctiliously developed skills over
+                  time. </p>
+              </div>
+              
+              <div class="space">
+                <span class="heading-text">About Bank of Singapore</span>
+              </div>
+
+              <div class="space">
+                <img src="assets/bank.png" class="company-logo" alt="bank">
+              </div>
+
+
+              <div>
+                <p>Bank of Singapore is a subsidiary of OCBC Bank, dedicated to private banking. Its head office in
+                  Singapore and its credit rating by Moody's is Aa1. Our open-architecture product platform backed by
+                  strong research capabilities provide our clients with first-class private banking and bespoke wealth
+                  planning solutions.</p>
+              </div>
             </div>
-        </nav>
+
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    <!--Side Navigation-->
-    <ul class="sidenav nav-color" id="mobile-nav">
-        <li><a href="#" class="white-text">About us</a></li>
-        <li><a href="#" class="white-text">Our Product</a></li>
-        <li><a href="#" class="white-text">Contact us</a></li>
-        <li><a href="https://play.google.com/store/apps/details?id=io.duit.ecards" class="white-text">Download</a></li>
-    </ul>
-
-    <!--Navigation Ends Here-->
-
-
-    <!--Container Starts Here-->
-    <div class="row">
-        <div class="container top-margin">
-                <div class="col s12">
-                        <div class="card horizontal">
-                          <div class="card-image">
-                            <img src="assets/person.png">
-                            <span class="image-tagline">Jessica Wang</span>
-                          </div>
-                          <div class="card-stacked">
-                            <div class="card-content">
-                              <p>I am a very simple card. I am good at containing small bits of information.</p>
-                            </div>
-                            
-                          </div>
-                        </div>
-                      </div>
-
-            </div>
-
-            
 
 
 
-    </div>
+
+  </div>
 
 
 
@@ -85,16 +133,16 @@
 
 
 
-    <!--Importing JavaScript-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!--Importing JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 
-    <!--Initializing Java Script Components-->
-    <script>
-        // Side Navigation
-        const sideNav = document.querySelector('.sidenav');
-        M.Sidenav.init(sideNav, {});
-    </script>
+  <!--Initializing Java Script Components-->
+  <script>
+    // Side Navigation
+    const sideNav = document.querySelector('.sidenav');
+    M.Sidenav.init(sideNav, {});
+  </script>
 </body>
 
-</html>     
+</html>
