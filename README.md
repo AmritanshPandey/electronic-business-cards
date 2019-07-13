@@ -1,2 +1,2 @@
-# event-registration-platform
+# digital-business-card
 Event Registration Platform which creates a digital business card for networking during the event. HTML, CSS, JS and Node.js is used to develop the project
